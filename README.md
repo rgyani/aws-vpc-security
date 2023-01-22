@@ -109,9 +109,17 @@ Route tables are used to make sure that subnets can communicate with each other 
 
 When you create a VPC, it automatically has a main route table. The main route table controls the routing for all subnets that are not explicitly associated with any other route table.
 
+| Network ACL | Route Table |
+| --- | --- |
+|If someone is coming from my in-laws, DENY/ALLOW entry |WHOEVER wants to BE WITHIN INDOORS will use USUAL ROUTE(s) |
+| If anyone is leaving my house, DENY/ALLOW entry | WHOEVER wants to BE IN BACKYARD will use KITCHEN ROUTE |
+| If my friends from Sussex are here, ALLOW/DENY entry | EVERYONE ELSE need to use MAIN DOOR ROUTE |
+| EVERYONE ELSE is DENIED | |
+
 
 ##### Route priority
 We use the most specific route in your route table that matches the traffic to determine how to route the traffic (longest prefix match).
+
 
 
 ### Internet Gateway (IGW)
