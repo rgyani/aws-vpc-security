@@ -1,4 +1,4 @@
-#Security in VPC
+# Security in VPC
 
 VPCs come with defense in depth by design. From the sub-network (NACLs) down to the individual server (security group) and further down to the application itself (secure coding practices), you can set up multiple levels of protection against malicious users and programs.
 
